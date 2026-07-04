@@ -1,0 +1,1 @@
+from datos.datos_paises import obtener_capital
