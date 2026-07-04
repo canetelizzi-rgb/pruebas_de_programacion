@@ -1,1 +1,0 @@
-from negocio.negocio_paises import buscar_capital

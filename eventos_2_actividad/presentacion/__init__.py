@@ -1,1 +1,4 @@
-from presentacion.consulta_eventos import iniciar
+from presentacion.busqueda_capital import iniciar_busqueda_capital
+from presentacion.consulta_eventos import iniciar_consulta_eventos
+from presentacion.consulta_patentes import iniciar_consulta_patentes
+from presentacion.menu_principal import menu_principal

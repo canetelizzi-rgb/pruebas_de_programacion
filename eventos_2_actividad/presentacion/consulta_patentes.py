@@ -1,9 +1,8 @@
 from negocio import buscar_vehiculo_por_patente
 
 
-def iniciar():
-    print("CONSULTA DE VEHÍCULO POR PATENTE")
-
+def iniciar_consulta_patentes():
+    print("   CONSULTA DE VEHÍCULO POR PATENTE")
 
     patente = input("Ingrese la patente a consultar: ")
 
@@ -21,5 +20,5 @@ def iniciar():
         else:
             print(f"No se encontró ningún vehículo con la patente '{patente.strip().upper()}'.")
 
-    except Exception as error:
-        print(f"Ocurrió un error inesperado: {error}")
+    except Exception as e:
+        print(f"Ocurrió un error inesperado: {e}")

@@ -1,1 +1,3 @@
+from datos.datos_paises import obtener_capital
 from datos.datos_eventos import obtener_eventos
+from datos.datos_patentes import obtener_vehiculos

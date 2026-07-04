@@ -1,1 +1,3 @@
+from negocio.negocio_paises import buscar_capital
 from negocio.negocio_eventos import buscar_eventos_por_fecha
+from negocio.negocio_patentes import buscar_vehiculo_por_patente

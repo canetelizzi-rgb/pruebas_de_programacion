@@ -1,1 +1,0 @@
-from presentacion.busqueda_capital import iniciar

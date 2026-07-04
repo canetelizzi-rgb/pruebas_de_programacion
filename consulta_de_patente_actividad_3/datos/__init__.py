@@ -1,1 +1,0 @@
-from datos.datos_patentes import obtener_vehiculos

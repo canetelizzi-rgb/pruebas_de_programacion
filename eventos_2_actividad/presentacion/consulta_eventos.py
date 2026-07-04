@@ -1,8 +1,9 @@
 from negocio import buscar_eventos_por_fecha
 
 
-def iniciar():
-    print("   CONSULTA DE EVENTOS POR FECHA")
+def iniciar_consulta_eventos():
+    print("CONSULTA DE EVENTOS POR FECHA")
+  
 
     fecha = input("Ingrese la fecha a consultar (dd/mm/aaaa): ")
 

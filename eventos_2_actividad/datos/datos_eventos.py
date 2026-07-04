@@ -9,5 +9,4 @@ eventos = [
 
 
 def obtener_eventos():
-    """Retorna la lista completa de eventos."""
     return eventos

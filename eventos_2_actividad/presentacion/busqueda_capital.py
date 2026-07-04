@@ -1,8 +1,9 @@
 from negocio import buscar_capital
 
 
-def iniciar():
-    print("BÚSQUEDA DE CAPITAL SEGÚN PAÍS")
+def iniciar_busqueda_capital():
+    print("   BÚSQUEDA DE CAPITAL SEGÚN PAÍS")
+
 
     pais = input("Ingrese el nombre del país: ")
 

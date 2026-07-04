@@ -18,9 +18,4 @@ paises_capitales = {
 
 
 def obtener_capital(pais_normalizado):
-    """
-    Retorna la capital de un país normalizado.
-    Si el país no existe como clave del diccionario, Python lanza
-    automáticamente un KeyError.
-    """
     return paises_capitales[pais_normalizado]
