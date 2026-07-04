@@ -1,0 +1,1 @@
+from negocio.negocio_patentes import buscar_vehiculo_por_patente
